@@ -4,4 +4,6 @@
     <title>Liste des étudiants</title>
     <!-- CSS Bootstrap -->
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
